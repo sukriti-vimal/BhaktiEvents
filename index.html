@@ -8,68 +8,484 @@
     />
     <link rel="stylesheet" href="shared.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Travel Goals</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Bhakti Events</title>
   </head>
   <body>
-    <header>
-      <div id="page-logo">
-        <a href="/index.html">Travel Goals</a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="/places.html">Destinations </a></li>
-          <li><a href="">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="hero">
-        <div id="hero-content">
-          <h1>Sukriti's Travel Page</h1>
-          <p>Let's explore the world together!</p>
-          <a href="/places.html">Discover Places</a>
+    <nav class="navbar">
+      <div class="logo">🪔 Bhakti Events</div>
+
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact</a>
+
+        <div class="call-btn">
+          <i class="fa-solid fa-phone"></i>
+          Call Now
         </div>
-      </section>
-      <section id="highlights">
-        <h2>Highlights</h2>
-        <ul id="destinations">
-          <li class="destination">
-            <img
-              src="/images/places/miami.jpg"
-              alt="Miami streets on sunny days"
-            />
-            <p>Miami <strong>USA</strong></p>
-          </li>
-          <li class="destination">
-            <img
-              src="/images/places/munich.jpg"
-              alt="Munich stadium in winters"
-            />
-            <p>Munich <strong> Germany</strong></p>
-          </li>
-          <li class="destination">
-            <img
-              src="/images/places/barcelona.jpg"
-              alt="Palm beach in Barcelona"
-            />
-            <p>Barcelona <strong>Spain</strong></p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <ul>
-        <li>
-          <a href="https://www.instagram.com">
-            <img src="/images/icons/insta.png" alt="instagram logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com">
-            <img src="/images/icons/facebook.png" alt="facebook logo" />
-          </a>
-        </li>
-      </ul>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <h1>Bhakti Events</h1>
+
+      <div class="hindi-text">भक्ति आप की जिंदगी तैयारी हम करेंगे</div>
+
+      <p class="sub-title">Complete Puja aur Event Solution Ghar Par</p>
+
+      <div class="features">
+        <div class="feature-box">
+          <i class="fa-solid fa-circle"></i>
+          Experienced Pandit Ji dwara Puja
+        </div>
+
+        <div class="feature-box">
+          <i class="fa-solid fa-circle"></i>
+          Premium Puja Samagri Delivery
+        </div>
+
+        <div class="feature-box">
+          <i class="fa-solid fa-circle"></i>
+          Festival Decoration Packages
+        </div>
+
+        <div class="feature-box">
+          <i class="fa-solid fa-circle"></i>
+          Bhajan Kirtan Event Setup
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="book-btn">Book Now</button>
+
+        <div class="call-box">
+          <i class="fa-solid fa-phone"></i>
+          Call: 9899971790
+        </div>
+      </div>
+    </section>
+
+    <div id="services" class="section">
+      <h2 class="section-title">Popular Services</h2>
+      <p class="section-sub">
+        Hum karte hain sabhi tarah ke puja aur events ki arrangement
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <img src="images/Services/Home pooja management.jpg" />
+          <div class="card-content">
+            <div class="price">₹3,825</div>
+            <h3>Home Puja Management</h3>
+            <p>Complete puja arrangement with experienced pandit ji</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Satyanarayan Puja.jpg" />
+          <div class="card-content">
+            <div class="price">₹3,825</div>
+            <h3>Satyanarayan Puja</h3>
+            <p>Vishnu bhakti ke liye special satyanarayan katha</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Sunderkand Path.jpg" />
+          <div class="card-content">
+            <div class="price">₹4,820</div>
+            <h3>Sunderkand Path</h3>
+            <p>Hanuman ji ki bhakti mein sunderkand path arrangement</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Griha Pravesh Puja.jpeg" />
+          <div class="card-content">
+            <div class="price">₹4,800</div>
+            <h3>Griha Pravesh Puja</h3>
+            <p>Naye ghar mein pravesh ke liye shubh puja</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Navgraha Shanti Pujajpeg.jpeg" />
+          <div class="card-content">
+            <div class="price">₹4,760</div>
+            <h3>Navgraha Shanti Puja</h3>
+            <p>Graho ke dosh door karne ke liye special puja</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Vastu Shanti Puja.jpg" />
+          <div class="card-content">
+            <div class="price">₹4,335</div>
+            <h3>Vastu Shanti Puja</h3>
+            <p>Ghar ya office ke liye vastu dosh nivaran</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Rudrabhishek Puja.jpeg" />
+          <div class="card-content">
+            <div class="price">₹4,800</div>
+            <h3>Rudrabhishek Puja</h3>
+            <p>Lord Shiva ki kripa ke liye powerful vedic ritual</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Ramayan Path.jpg" />
+          <div class="card-content">
+            <div class="price">₹17,850</div>
+            <h3>Ramayan Path</h3>
+            <p>24 ghante continuous Ramayan path arrangement</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Mundan Sanskar.jpeg" />
+          <div class="card-content">
+            <div class="price">₹5,185</div>
+            <h3>Mundan Sanskar</h3>
+            <p>Bacche ke pehle mundan ka shubh sanskar</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Festival Decoration.jpg" />
+          <div class="card-content">
+            <div class="price">₹6,800</div>
+            <h3>Festival Decoration</h3>
+            <p>Diwali, Navratri aur sabhi festivals ke liye decoration</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Bhajan Kirtan Eventjpg.jpg" />
+          <div class="card-content">
+            <div class="price">₹12,750</div>
+            <h3>Bhajan Kirtan Event</h3>
+            <p>Bhajan sandhya aur kirtan event ka complete setup</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Services/Bhagwat Katha.jpg" />
+          <div class="card-content">
+            <div class="price">₹12,250</div>
+            <h3>Bhagwat Katha</h3>
+            <p>Saptah bhagwat katha arrangement with pandal</p>
+            <a class="btn" href="#">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="choose-section">
+      <h1>Kyun Choose Karein Bhakti Events</h1>
+      <p>Aapka trusted platform sacred rituals aur events ke liye</p>
+
+      <div class="choose-grid">
+        <div class="choose-card">
+          <h3>Experienced Pandit Ji</h3>
+          <p>Trained aur experienced Vedic pandits har puja ke liye</p>
+        </div>
+
+        <div class="choose-card">
+          <h3>Premium Puja Samagri</h3>
+          <p>35+ essential puja items delivery aapke ghar tak</p>
+        </div>
+
+        <div class="choose-card">
+          <h3>Personalized Muhurat</h3>
+          <p>Sahi samay ke detailed instructions har ritual ke liye</p>
+        </div>
+
+        <div class="choose-card">
+          <h3>Hassle-Free Booking</h3>
+          <p>Sirf kuch clicks – sab hum sambhaalte hain</p>
+        </div>
+
+        <div class="choose-card">
+          <h3>All Events in One Place</h3>
+          <p>Puja se lekar decoration tak sab ek jagah</p>
+        </div>
+
+        <div class="choose-card">
+          <h3>Trusted by Families</h3>
+          <p>98% satisfied families ke saath seva</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="stats-section">
+      <h2 class="stats-heading">Service Performed, Faith Strengthened</h2>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <h3>500+</h3>
+          <p>Puja Performed</p>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-briefcase"></i>
+          <h3>100+</h3>
+          <p>Types Of Services</p>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-star"></i>
+          <h3>98%</h3>
+          <p>Customer Rating</p>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-city"></i>
+          <h3>50+</h3>
+          <p>Cities Covered</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow-section">
+      <h2 class="workflow-title">Kaise Kaam Karta Hai</h2>
+      <p class="workflow-subtitle">
+        Sirf 4 aasan steps mein book karein apna puja ya event
+      </p>
+
+      <div class="workflow-steps">
+        <div class="workflow-step">
+          <div class="workflow-circle">1</div>
+          <h4>Book Karein</h4>
+          <p>Call ya WhatsApp karein aur apni requirement batayein</p>
+        </div>
+
+        <div class="workflow-step">
+          <div class="workflow-circle">2</div>
+          <h4>Plan Karein</h4>
+          <p>Hum discuss karenge date, time aur sab arrangements</p>
+        </div>
+
+        <div class="workflow-step">
+          <div class="workflow-circle">3</div>
+          <h4>Relax Karein</h4>
+          <p>Pandit ji, samagri aur decoration – sab hum sambhalte hain</p>
+        </div>
+
+        <div class="workflow-step">
+          <div class="workflow-circle">4</div>
+          <h4>Enjoy Karein</h4>
+          <p>Apne puja ya event ko enjoy karein tension-free</p>
+        </div>
+      </div>
+
+      <div class="workflow-guarantee">
+        ✅ 100% Customer Satisfaction Guaranteed
+      </div>
+    </section>
+
+    <section id="testimonials" class="be-testimonials">
+      <div class="be-testimonials-header">
+        <h2>Kya Kehte Hain Hamare Customers</h2>
+        <p>Families jo trust karti hain Bhakti Events ko</p>
+      </div>
+
+      <div class="be-testimonials-grid">
+        <!-- Card 1 -->
+        <div class="be-testimonial-card">
+          <div class="be-testimonial-user">
+            <div class="be-avatar">R</div>
+            <div>
+              <h4>Rajesh Gupta</h4>
+              <span>Gurgaon</span>
+            </div>
+          </div>
+
+          <p class="be-testimonial-text">
+            Bhakti Events ne hamare ghar mein Satyanarayan Puja bahut achhe se
+            arrange kiya. Pandit ji bahut experienced the aur sab kuch time par
+            hua. Highly recommended!
+          </p>
+
+          <div class="be-stars">★★★★★</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="be-testimonial-card">
+          <div class="be-testimonial-user">
+            <div class="be-avatar">S</div>
+            <div>
+              <h4>Sunita Sharma</h4>
+              <span>Delhi</span>
+            </div>
+          </div>
+
+          <p class="be-testimonial-text">
+            Griha Pravesh ke liye Bhakti Events se contact kiya. Decoration se
+            lekar puja tak sab perfect tha. Harshit ji ne personally dhyan
+            rakha. Thank you!
+          </p>
+
+          <div class="be-stars">★★★★★</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="be-testimonial-card">
+          <div class="be-testimonial-user">
+            <div class="be-avatar">A</div>
+            <div>
+              <h4>Amit Kumar</h4>
+              <span>Noida</span>
+            </div>
+          </div>
+
+          <p class="be-testimonial-text">
+            Navratri mein mata ki chowki arrange karwai thi. Bhajan kirtan ka
+            setup bilkul professional tha. Sabko bahut pasand aaya. Great
+            service!
+          </p>
+
+          <div class="be-stars">★★★★★</div>
+        </div>
+
+        <div class="be-testimonial-card">
+          <div class="be-testimonial-user">
+            <div class="be-avatar">A</div>
+            <div>
+              <h4>Priya Malhotra</h4>
+              <span>Faridabad</span>
+            </div>
+          </div>
+
+          <p class="be-testimonial-text">
+            Mundan sanskar ke liye Bhakti Events ko contact kiya. Bahut hi
+            smooth process tha. Puja samagri bhi quality thi. Definitely
+            recommend karenge.
+          </p>
+
+          <div class="be-stars">★★★★★</div>
+        </div>
+
+        <div class="be-testimonial-card">
+          <div class="be-testimonial-user">
+            <div class="be-avatar">A</div>
+            <div>
+              <h4>Vikram Singh</h4>
+              <span>Gurgaon</span>
+            </div>
+          </div>
+
+          <p class="be-testimonial-text">
+            Office mein Vastu Puja karwani thi. Bhakti Events ne sab arrange kar
+            diya. Pandit ji ne details mein samjhaya. Very satisfied with the
+            service.
+          </p>
+
+          <div class="be-stars">★★★★★</div>
+        </div>
+
+        <div class="be-testimonial-card">
+          <div class="be-testimonial-user">
+            <div class="be-avatar">A</div>
+            <div>
+              <h4>Kavita Mehta</h4>
+              <span>Delhi NCR</span>
+            </div>
+          </div>
+
+          <p class="be-testimonial-text">
+            Diwali decoration package liya tha. Ghar bahut sundar lag raha tha.
+            Sabhi festival items bhi mil gaye. Excellent work by Bhakti Events
+            team!
+          </p>
+
+          <div class="be-stars">★★★★★</div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="be-footer">
+      <div class="be-footer-container">
+        <!-- About -->
+        <div class="be-footer-col">
+          <h3>Bhakti Events</h3>
+          <p>
+            Aapke har dharmik event aur puja ka trusted partner. Hum karte hain
+            complete arrangement with experienced pandits aur premium quality.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="be-footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="be-footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li>Home Puja Management</li>
+            <li>Festival Decoration Packages</li>
+            <li>Bhajan / Kirtan Event Setup</li>
+            <li>Ramayan Path</li>
+            <li>Sundarkand Path</li>
+            <li>Bhagwat Katha</li>
+            <li>Satyanarayan Pooja</li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="be-footer-col">
+          <h4>Contact Us</h4>
+          <p>📍 3370, Sector 57, Gurgaon, Haryana</p>
+          <p>📞 +91 9899971790</p>
+          <p>✉️ contact@bhaktievents.com</p>
+
+          <p class="be-footer-person">
+            <strong>Contact Person:</strong><br />
+            Harshit Sharma
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="be-footer-bottom">
+        <div class="be-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <p>© 2026 Bhakti Events. All rights reserved.</p>
+        <span>Made with devotion for your spiritual needs</span>
+      </div>
     </footer>
   </body>
 </html>
